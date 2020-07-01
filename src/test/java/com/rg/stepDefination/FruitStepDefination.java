@@ -1,4 +1,4 @@
-package com.Aress.stepDefination;
+package com.rg.stepDefination;
 
 
 
@@ -6,8 +6,8 @@ import static io.restassured.RestAssured.given;
 
 import org.junit.Assert;
 
-import com.Aress.PayLoad.TestPayLoad;
-import com.Aress.resources.Utils;
+import com.rg.PayLoad.TestPayLoad;
+import com.rg.resources.Utils;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -38,7 +38,7 @@ public class FruitStepDefination extends Utils {
 	public void user_calls_with_http_request(String arg1, String arg2) throws Throwable {
 
 		
-		com.Aress.resources.APIResources resourceAPI = com.Aress.resources.APIResources.valueOf(arg1);
+		com.rg.resources.APIResources resourceAPI = com.rg.resources.APIResources.valueOf(arg1);
 		System.out.println(resourceAPI.getResource());
 
 		resSpec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();

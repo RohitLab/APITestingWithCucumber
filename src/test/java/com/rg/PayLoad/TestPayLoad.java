@@ -1,6 +1,6 @@
-package com.Aress.PayLoad;
+package com.rg.PayLoad;
 
-import com.Aress.pojo.CreateCustomerPojo;
+import com.rg.pojo.CreateCustomerPojo;
 
 public class TestPayLoad {
 	

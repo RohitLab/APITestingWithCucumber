@@ -1,4 +1,4 @@
-package com.Aress.resources;
+package com.rg.resources;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

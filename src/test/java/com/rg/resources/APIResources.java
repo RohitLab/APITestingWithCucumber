@@ -1,4 +1,4 @@
-package com.Aress.resources;
+package com.rg.resources;
 //enum is special class in java which has collection of constants or  methods
 public enum APIResources {
 	

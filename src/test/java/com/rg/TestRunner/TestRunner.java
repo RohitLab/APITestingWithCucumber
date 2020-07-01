@@ -1,4 +1,4 @@
-package com.Aress.TestRunner;
+package com.rg.TestRunner;
 
 import org.junit.runner.RunWith;
 

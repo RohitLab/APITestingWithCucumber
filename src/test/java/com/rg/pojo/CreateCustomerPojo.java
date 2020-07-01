@@ -1,4 +1,4 @@
-package com.Aress.pojo;
+package com.rg.pojo;
 
 public class CreateCustomerPojo {
 
